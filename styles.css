@@ -1,0 +1,312 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+#container{
+    width: 1300px;
+    margin: auto;
+
+}
+
+.Etsysign{ 
+    font-size: 30px;
+    color: rgb(242,77,4);
+    padding-right: 12px;
+
+}
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    
+}
+
+.searchbar{
+    width: 400px;
+    margin-right: 3px;
+    height: 34px;
+}
+
+.searchbutton{
+    background: black;
+    width: 90px;
+    color: white;
+    margin-right: 600px;
+    border-radius: 3px;
+    height: 34px;
+    
+}
+.sellonetsy, .register{
+    background: transparent;
+    border: none;
+}
+.signin{
+    height: 34px;
+    background: transparent;
+    margin-right: 20px;
+    border: 1px solid black;
+    width: 64px;
+    border-radius: 3px;
+}
+
+.cartpic{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+.fa-toolbox{
+    margin-right: 20px;
+    margin-top: 10px;
+    border-right: 1px solid lightgray;
+    padding-right: 15px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    position: relative;
+    
+}
+
+#menu li a{
+    width: 110px;
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+ .fa-gift{
+     margin-right: 3px;
+ }
+#orangebuttons button{
+    background: rgb(255, 162, 88);
+    height: 38px;
+    margin-right: 3px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+#orangebuttons :nth-child(9){
+    background: rgb(254, 200, 121)
+}
+
+#orangebuttons :nth-child(10){
+    background: rgb(254, 200, 121)
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    width: 286px;
+    border: gray;
+    
+}
+
+
+.specialoffer{
+    background: #fbead8;
+    font-size: 12px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    padding-left: 8px;
+    width: 206px;
+}
+
+.all_categories{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    width: 206px;
+    
+}
+
+.all_categories a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 11px;
+    width: 206px;
+}
+
+.showmore{
+
+    color: black;
+    font-size: 12px;
+    width: 206px;
+
+}
+
+#shipping{
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    font-size: 12px;
+}
+
+.shippingcheckbox{
+
+    display: flex;
+    padding-bottom: 4px;
+}
+
+#material{
+
+    font-size: 12px;
+}
+
+.material{
+
+    display: flex;
+    padding-bottom: 4px;
+}
+
+#color{
+
+    font-size: 12px;
+}
+
+.color{
+
+    display: flex;
+}
+
+
+#personalized{
+
+    font-size: 12px;
+}
+
+#occasion{
+
+    font-size: 12px;
+}
+
+#holiday{
+
+    font-size: 12px;
+}
+
+#shop_location{
+
+    font-size: 12px;
+}
+
+#shipping a{
+    text-decoration: none;
+    color: black;
+}
+
+#material a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#color a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#personalized a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#occasion a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#holiday a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#itemtype a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#shop_location a{
+
+    text-decoration: none;
+    color: black;
+}
+.locationbutton{
+    position: relative;
+    width: 38;
+height: 38;
+border-style: solid;
+border-width: 7.5px 0 7.5px 13.0px;
+border-color: transparent transparent transparent #000000;
+left: 10px;
+}
+
+#price{
+    font-size: 12px;
+}
+
+#price a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.pricelow{
+
+    width: 38px;
+}
+
+.pricehigh{
+
+    width: 38px;
+}
+
+.pricesubmit{
+
+    position: relative;
+    width: 38;
+height: 38;
+border-style: solid;
+border-width: 7.5px 0 7.5px 13.0px;
+border-color: transparent transparent transparent #000000;
+left: 10px;
+
+}
+#orderingoptions{
+    font-size: 12px;
+
+}
+
+.gc{
+    text-decoration: none;
+    color: black;
+}
+
+.giftwrap{
+
+    text-decoration: none;
+    color: black;
+}
+
+#boxitemcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
