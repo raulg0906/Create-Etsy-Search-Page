@@ -281,8 +281,8 @@ left: 10px;
 
 .pricesubmit{
 
-    position: relative;
-    width: 38;
+position: relative;
+width: 38;
 height: 38;
 border-style: solid;
 border-width: 7.5px 0 7.5px 13.0px;
@@ -290,23 +290,23 @@ border-color: transparent transparent transparent #000000;
 left: 10px;
 
 }
-#orderingoptions{
+#orderingoptions a{
     font-size: 12px;
+    color: black;
+    text-decoration: none;
 
 }
 
-.gc{
-    text-decoration: none;
-    color: black;
-}
-
-.giftwrap{
-
-    text-decoration: none;
-    color: black;
+#side_items{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #boxitemcontainer{
-    display: flex;
-    flex-wrap: wrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+display: flex;
+flex-wrap: wrap;
 }
