@@ -107,8 +107,9 @@ html{
     display: flex;
     flex-direction: column;
     margin-top: 45px;
-    width: 286px;
+    width: 250px;
     border: gray;
+    flex-wrap: wrap;
     
 }
 
@@ -297,16 +298,19 @@ left: 10px;
 
 }
 
-#side_items{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 #boxitemcontainer{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 200px;
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
+#sideitemcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
