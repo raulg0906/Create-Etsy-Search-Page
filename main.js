@@ -11,11 +11,11 @@ var viewItems = items.results.map(function(product){
 
 var htmlitems = viewItems.map(function(item){
     return `
-        <div>
+        <div class="temp">
             <img src="${item.image}">
-            <p>"${item.title}"</p>
-            <p>"${item.shop}"</p>
-            <p>"${item.price}"</p>
+            <p class="title1">"${item.title}"</p>
+            <p class="shopname1">"${item.shop}"</p>
+            <p class="price1">"${item.price}"</p>
         </div>
     `
 })

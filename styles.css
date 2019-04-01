@@ -300,17 +300,27 @@ left: 10px;
 
 
 #boxitemcontainer{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 200px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
 
 }
 
 #sideitemcontainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+}
+
+#sidebar_items{
+    border: 1px solid gray;
+}
+.temp{
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
